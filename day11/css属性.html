@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div1{
+            background: rebeccapurple;
+            width: 100px;
+            height: 100px;
+            float: right;
+        }
+        .div2{
+            background: red;
+            width: 100px;
+            height: 100px;
+            float: left;
+            /*浮动*/
+        }
+        .div3{
+            background: green;
+            width: 200px;
+            height: 200px;
+        }
+        .outer{
+            background: blue;
+            overflow: hidden;
+            /*超出部分隐藏*/
+        }
+        .menu1{
+            width: 100px;
+            height: 100px;
+            color: gold;
+            float: left;
+            background: lawngreen;
+        }
+        .menu2{
+            width: 100px;
+            height: 100px;
+            color: gold;
+            float: left;
+            background: orange;
+        }
+        .bottom{
+            text-align: center;
+            background: red;
+            clear: both;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<!--<div class="div1">div1</div>-->
+<!--<div class="div2">div2</div>-->
+<!--<div class="div3">div3</div>-->
+<div class="outer">
+    <div class="menu1">菜单1</div>
+    <div class="menu2">菜单2</div>
+    <div class="clear"></div>
+</div>
+<div class="bottom">底部</div>
+
+</body>
+</html>

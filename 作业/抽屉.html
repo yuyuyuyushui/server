@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            font-family: "Times New Roman";
+            font-size:12px;
+        }
+        .head-box{
+            background: #2459a2;
+            height: 44px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+        .head-content{
+            width: 1016px;
+            background: blueviolet;
+            height: 44px;
+            line-height: 44px;
+            margin: 0 auto;
+
+        }
+        .head-content .logo{
+            display: inline-block;
+            /*background: url('images/logo.png');*/
+            width: 121px;
+            height: 23px;
+            margin-top: 11px;
+            float: left;
+        }
+        .head-content .action-menu{
+            float: left;
+           margin-left: 5px;
+        }
+        .head-content .action-menu a.tb{
+            display: inline-block;
+            margin-left: -3px;
+            /*去掉自带的*/
+            border: 1px solid red;
+            padding: 0 16px 0 3px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="head-box">
+    <div class="head-content">
+        <a href="#" class="logo"></a>
+        <div class="action-menu">
+            <a href="#" class="tb active">全部</a>
+            <a href="#" class="tb">42区</a>
+            <a href="#" class="tb">段子</a>
+            <a href="#" class="tb">图片</a>
+            <a href="#" class="tb">1024</a>
+            <a href="#" class="tb">你问我答</a>
+        </div>
+
+        <div class="key-search"></div>
+        <div class="action-nav">
+        </div>
+    </div>
+</div>
+<div main-conent-box></div>
+    <div class="main-content"></div>
+        <div class="content-L"></div>
+        <div class="content-R"></div>
+        <div class="content-foot"></div>
+<div></div>
+
+</body>
+</html>
